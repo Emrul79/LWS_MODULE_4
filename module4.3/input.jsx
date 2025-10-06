@@ -6,6 +6,7 @@ export default function Form() {
 
   function handleClick() {
     inputRef.current.focus();
+    inputRef.current.style.borderRadius = "15px";
   }
 
   return (

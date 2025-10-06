@@ -1,4 +1,4 @@
-/* @import "tailwindcss"; */
+@import "tailwindcss";
 * {
   box-sizing: border-box;
 }
@@ -58,15 +58,4 @@ nav {
 
 button {
   margin: 0.25rem;
-}
-
-ul,
-li {
-  list-style: none;
-  white-space: nowrap;
-}
-
-li {
-  display: inline;
-  padding: 0.5rem;
 }
