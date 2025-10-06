@@ -1,9 +1,9 @@
-import CatFriends from "../modulle4.2/CatFriends";
+import Form from "../module4.3/input";
 
 function App() {
   return (
     <div className="width-full text-center bg-gray-500 ">
-      <CatFriends />
+      <Form />
     </div>
   );
 }
