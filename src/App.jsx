@@ -1,9 +1,9 @@
-import MyFlushSync from "../module.4.6/FlushSync";
+import ChatRoom from "../module4.8/ChatRoom";
 
 function App() {
   return (
     <div className="width-full text-center bg-gray-500 ">
-      <MyFlushSync />
+      <ChatRoom />
     </div>
   );
 }
