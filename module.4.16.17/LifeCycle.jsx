@@ -12,7 +12,6 @@ export default function ChatRoom({ roomId, serverUrl }) {
     const connection = createConnection(myServerUrl, roomId);
 
     connection.connect(); // Connects to the "general" room
-    console.log(`sychronizing with ${roomId}`);
 
     //cleanup function:
     return () => {

@@ -1,9 +1,9 @@
-import MainChatRoom from "../module.4.16.17/MainChatRoom";
+import CustomHoq from "../module.4.23/CustomHoq";
 
 function App() {
   return (
-    <div className="width-full text-center bg-gray-500 ">
-      <MainChatRoom />
+    <div className="width-full text-center  ">
+      <CustomHoq />
     </div>
   );
 }
