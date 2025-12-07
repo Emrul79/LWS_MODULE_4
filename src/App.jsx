@@ -1,9 +1,9 @@
-import CustomHoq from "../module.4.23/CustomHoq";
+import MainServer from "../module.4.24/MainServer";
 
 function App() {
   return (
     <div className="width-full text-center  ">
-      <CustomHoq />
+      <MainServer />
     </div>
   );
 }
