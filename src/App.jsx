@@ -1,9 +1,9 @@
-import Welcome from "../module.4.27/Welcome";
+import Parent from "../module4.28/Parent.jsx";
 
 function App() {
   return (
     <div className="width-full text-center  ">
-      <Welcome />
+      <Parent />
     </div>
   );
 }
