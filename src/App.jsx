@@ -1,9 +1,9 @@
-import MainServer from "../module.4.24/MainServer";
+import Welcome from "../module.4.27/Welcome";
 
 function App() {
   return (
     <div className="width-full text-center  ">
-      <MainServer />
+      <Welcome />
     </div>
   );
 }
